@@ -64,7 +64,7 @@ class ChatRoom extends Component {
 			value={this.state.messagesList}
 			onChange={this.updateMessage.bind(this)}
 			/>
-			<Button type='submit' variant='Icon buttons'   color='secondary'> Send </Button>
+			<Button type='submit' variant='Icon buttons'   color='primary'> Send </Button>
 		</form>
 
 		</div>
